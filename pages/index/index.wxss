@@ -1,0 +1,10 @@
+/**index.wxss**/
+.nav {
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  width: 600rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  background-color: #09BB07;
+  color: #FFF;
+}

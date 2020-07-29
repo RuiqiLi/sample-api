@@ -1,0 +1,13 @@
+<!--pages/6.5/surface.wxml-->
+<view>
+	<view class="txt">点击下面的按钮，观察界面变化的效果吧。</view>
+
+	<button class="btn" hover-class="hover" bindtap="setNavBarTitle">setNavBarTitle</button>
+
+	<button class="btn" hover-class="hover" bindtap="setNavBarColor">setNavBarColor</button>
+
+  <view class="txt">点击下面的按钮后，请在「调试器」的「Console」面板中查看 API 调用的返回结果。</view>
+
+	<button class="btn" hover-class="hover" bindtap="menuButton">menuButton</button>
+
+</view>

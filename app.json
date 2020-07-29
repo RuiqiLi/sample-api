@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/6.1/basic",
+    "pages/6.2/account",
+    "pages/6.3/route",
+    "pages/6.3/new_page",
+    "pages/6.4/interaction",
+    "pages/6.5/surface",
+    "pages/6.6/network",
+    "pages/6.7/storage",
+    "pages/6.8/file",
+    "pages/6.9/image",
+    "pages/6.10/recorder",
+    "pages/6.11/inner_audio",
+    "pages/6.12/bg_audio",
+    "pages/6.13/video",
+    "pages/6.14/location",
+    "pages/6.15/device",
+    "pages/6.16/event"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+	<navigator class="nav" url="/pages/6.1/basic">6.1 基础 API</navigator>
+	<navigator class="nav" url="/pages/6.2/account">6.2 账号信息 API</navigator>
+	<navigator class="nav" url="/pages/6.3/route">6.3 路由 API</navigator>
+	<navigator class="nav" url="/pages/6.4/interaction">6.4 交互 API</navigator>
+	<navigator class="nav" url="/pages/6.5/surface">6.5 界面 API</navigator>
+	<navigator class="nav" url="/pages/6.6/network">6.6 网络 API</navigator>
+	<navigator class="nav" url="/pages/6.7/storage">6.7 数据缓存 API</navigator>
+	<navigator class="nav" url="/pages/6.8/file">6.8 文件 API</navigator>
+	<navigator class="nav" url="/pages/6.9/image">6.9 图片 API</navigator>
+	<navigator class="nav" url="/pages/6.10/recorder">6.10 录音 API</navigator>
+	<navigator class="nav" url="/pages/6.11/inner_audio">6.11 内部音频 API</navigator>
+	<navigator class="nav" url="/pages/6.12/bg_audio">6.12 背景音频 API</navigator>
+	<navigator class="nav" url="/pages/6.13/video">6.13 视频 API</navigator>
+	<navigator class="nav" url="/pages/6.14/location">6.14 位置 API</navigator>
+	<navigator class="nav" url="/pages/6.15/device">6.15 设备 API</navigator>
+	<navigator class="nav" url="/pages/6.16/event">6.16 事件监听 API</navigator>
+</view>

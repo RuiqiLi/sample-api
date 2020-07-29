@@ -1,0 +1,32 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 0 100rpx;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin: 40rpx;
+  background-color: #09BB07;
+  color: #FFF;
+}
+
+.btn.red {
+  background-color: #E64340;
+}
+
+.btn.hover {
+  background-color: #c7eac7;
+}
+
+.btn.red.hover {
+  background-color: #f2d2d2;
+}
+
+.txt {
+  margin: 40rpx;
+}

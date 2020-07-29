@@ -1,0 +1,4 @@
+/* pages/6.4/interaction.wxss */
+.page-scroll-to {
+  margin-top: 1000rpx;
+}

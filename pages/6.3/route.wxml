@@ -1,0 +1,10 @@
+<!--pages/6.3/route.wxml-->
+<view>
+	<view class="txt">点击下面的按钮可以路由到新的页面，注意观察不同的路由方式有什么区别。</view>
+
+	<button class="btn" hover-class="hover" bindtap="navigateTo">navigateTo</button>
+	<button class="btn" hover-class="hover" bindtap="navigateBack">navigateBack</button>
+	<button class="btn" hover-class="hover" bindtap="redirectTo">redirectTo</button>
+	<button class="btn" hover-class="hover" bindtap="reLaunch">reLaunch</button>
+	<button class="btn" hover-class="hover" bindtap="navigateToMiniProgram">navigateToMiniProgram</button>
+</view>

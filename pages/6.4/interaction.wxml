@@ -1,0 +1,19 @@
+<!--pages/6.4/interaction.wxml-->
+<view>
+	<view class="txt">点击下面的按钮，观察交互动画的效果吧。（页面一直往下翻，还有一个「pageScrollTo」按钮哦。）</view>
+
+	<button class="btn" hover-class="hover" bindtap="showToast">showToast</button>
+	<button class="btn red" hover-class="hover" bindtap="hideToast">hideToast</button>
+
+	<button class="btn" hover-class="hover" bindtap="showLoading">showLoading</button>
+
+	<button class="btn" hover-class="hover" bindtap="showModal">showModal</button>
+
+	<button class="btn" hover-class="hover" bindtap="showActionSheet">showActionSheet</button>
+
+	<button class="btn" hover-class="hover" bindtap="pullDownRefresh">pullDownRefresh</button>
+
+	<button class="btn" hover-class="hover" bindtap="navBarLoading">navBarLoading</button>
+
+	<button class="btn page-scroll-to" hover-class="hover" bindtap="pageScrollTo">pageScrollTo</button>
+</view>

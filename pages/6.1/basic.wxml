@@ -1,0 +1,19 @@
+<!--pages/6.1/basic.wxml-->
+<view>
+	<view class="txt">点击下面的按钮后，请在「调试器」的「Console」面板中查看 API 调用的返回结果。</view>
+
+	<button class="btn" hover-class="hover" bindtap="getSystemInfo">getSystemInfo</button>
+	<button class="btn" hover-class="hover" bindtap="canIUse">canIUse</button>
+	<button class="btn" hover-class="hover" bindtap="updateManager">updateManager</button>
+
+	<button class="btn" hover-class="hover" bindtap="consolelog">consolelog</button>
+	<button class="btn" hover-class="hover" bindtap="enableDebug">enableDebug</button>
+	<button class="btn red" hover-class="hover" bindtap="disableDebug">disableDebug</button>
+
+	<button class="btn" hover-class="hover" bindtap="setTimeout">setTimeout</button>
+	<button class="btn" hover-class="hover" bindtap="setInterval">setInterval</button>
+	<button class="btn red" hover-class="hover" bindtap="clearInterval">clearInterval</button>
+
+	<button class="btn" hover-class="hover" bindtap="getSetting">getSetting</button>
+	<button class="btn" hover-class="hover" bindtap="openSetting">openSetting</button>
+</view>

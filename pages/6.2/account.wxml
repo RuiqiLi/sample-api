@@ -1,0 +1,12 @@
+<!--pages/6.2/account.wxml-->
+<view>
+	<view class="txt">点击下面的按钮后，请在「调试器」的「Console」面板中查看 API 调用的返回结果。</view>
+
+	<button class="btn" hover-class="hover" bindtap="login">login</button>
+	<button class="btn" hover-class="hover" bindtap="checkSession">checkSession</button>
+
+	<button class="btn" hover-class="hover" bindtap="getUserInfo">getUserInfo</button>
+	<button class="btn" hover-class="hover" open-type="getUserInfo">授权个人信息</button>
+
+	<button class="btn" hover-class="hover" bindtap="getAccountInfoSync">getAccountInfoSync</button>
+</view>
